@@ -49,7 +49,13 @@ Demo repository coming soon.
 
 # Philosophy
 
+## Server ME
+
 Server ME is an open-source JavaScript library built for beginners by beginners. It is targeted towards JavaScript developers who have little to no experience in back-end coding. As you use Server ME and learn more about back-end development, we encourage you to contribute to this library to make it better for other beginners learning JavaScript.
+
+## Inclusivity
+
+As an open-source library, Server ME strives to be inclusive. Thus, Server ME has abandoned all controversial and offensive norms in the Computer Science community. For example, rather than refering to our primary branch as "master," Server ME refers to our primary branch as "main." Rather than using terms such as "blacklist" or "whitelist," Server ME uses "allowlist" or "denylist." We hope you will join us in creating inclusive communities within Computer Science. Please feel free to submit a pull request if any code or text in this library seems offensive or non-inclusive.
 
 # License
 
