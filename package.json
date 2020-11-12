@@ -1,11 +1,18 @@
 {
-  "name": "qconstruct",
+  "name": "serverme",
   "version": "0.0.1",
-  "description": "QConstruct is a JavaScript library.",
+  "description": "Server ME is a JavaScript library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Mai",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
 }
