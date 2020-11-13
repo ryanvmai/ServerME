@@ -1,6 +1,5 @@
-const createApplication = require('./lib/QuickServer');
-const ServerConstruct = require('./lib/QuickServer');
+const ServerME = require('./lib/serverME');
 
-createApplication(3000);
-
-//const ExpressServer = new ExpressServer(3000);
+const app = new ServerME();
+app.start(3000);
+app.connectDatabase();
