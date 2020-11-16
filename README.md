@@ -1,6 +1,7 @@
 # Server ME
 
 [![NPM Version][npm-image]][npm-url]
+![NPM DL](https://img.shields.io/npm/dy/serverme)
 ![Build][build-image]
 [![License][license-image]][license-url]
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md)
@@ -109,8 +110,8 @@ Read the [full license][license-url] to learn more.
 
 © 2020 Ryan Mai
 
-[npm-image]: https://img.shields.io/badge/npm_package-v0.0.4-blue
+[npm-image]: https://img.shields.io/npm/v/serverme?color=blue
 [npm-url]: https://www.npmjs.com/package/serverme
-[license-image]: https://img.shields.io/badge/license-MIT-blue
+[license-image]: https://img.shields.io/npm/l/serverme
 [license-url]: https://github.com/ryanvmai/ServerME/blob/main/LICENSE
-[build-image]: https://img.shields.io/badge/build-passing-green
+[build-image]: https://img.shields.io/badge/build-passing-brightgreen
