@@ -48,7 +48,7 @@ Successfully established connection to mongoDB Atlas Cloud Database
 
 ## **Connecting to MongoDB**
 
-At the current moment, Server ME can create an Express server that connects to MongoDB. To use this library with MongoDB, create an account[here](https://www.mongodb.com/cloud/atlas). After creating your account, create a project and a cluster. Connect your database by allowlisting your IP address and connecting your Atlas Cloud Uniform Resource Indentifier (URI).
+At the current moment, Server ME can create an Express server that connects to MongoDB. To use this library with MongoDB, create an account [here](https://www.mongodb.com/cloud/atlas). After creating your account, create a project and a cluster. Connect your database by allowlisting your IP address and connecting your Atlas Cloud Uniform Resource Indentifier (URI).
 
 Alternatively, use the test URI to connect to Server ME's demo server:
 
@@ -79,10 +79,6 @@ More information coming soon.
 
 Contributions to this software library are highly appreciated and encouraged. To contribute, simply initiate a pull request.
 
-# Example
-
-Demo repository coming soon.
-
 # Philosophy
 
 ## Server ME
@@ -95,7 +91,11 @@ As an open-source library, Server ME strives to be inclusive. Thus, Server ME ha
 
 # License
 
-MIT
+ServerME uses the **MIT** license, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+_Information sourced from [choosealicense](https://choosealicense.com/licenses/mit/)._
+
+Read the full license to learn more.
 
 # Other
 
