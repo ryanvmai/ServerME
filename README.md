@@ -1,8 +1,8 @@
 # Server ME
 
 [![NPM Version][npm-image]][npm-url]
-[![License][license-image]][license-url]
 ![Build][build-image]
+[![License][license-image]][license-url]
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md)
 
 Server ME is an open-source JavaScript library that works with [Express.js](https://expressjs.com), [Mongoose.js](https://mongoosejs.com), and [Node.js](https://nodejs.org/en/). Targeted towards beginners, Server ME helps people unfamiliar with back-end coding quickly set up a web server and API with a database connection.
