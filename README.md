@@ -26,7 +26,27 @@ $ npm install serverme
 - Creates routes for Get/Post requests
 - Allows users to quickly create mongoose Schemas and designate routes
 
-# Usage
+# Using ServerME
+
+## **Quick start**
+
+```
+const serverme = require('serverme');
+
+const app = new serverme;
+app.start(3000); //port number
+app.connectDatabase();
+```
+
+Desired output:
+
+```
+Server started at port 3000. Visit site at http://localhost:3000/
+
+Successfully established connection to mongoDB Atlas Cloud Database
+```
+
+## **Connecting to MongoDB**
 
 At the current moment, Server ME can create an Express server that connects to MongoDB. To use this library with MongoDB, create an account[here](https://www.mongodb.com/cloud/atlas). After creating your account, create a project and a cluster. Connect your database by allowlisting your IP address and connecting your Atlas Cloud Uniform Resource Indentifier (URI).
 
@@ -34,6 +54,21 @@ Alternatively, use the test URI to connect to Server ME's demo server:
 
 ```
 mongodb+srv://guest:AndoverCSC630@testcluster.z1itv.mongodb.net/TestDatabase?retryWrites=true&w=majority
+```
+
+## **Creating a mongoose schema**
+
+```
+//Sample Schema
+const userSchema = new Schema({
+    name: String,
+    username: {type: String, required: true, unique: true},
+    password: {type: String, required: true}
+}, {
+    timestamps: true,
+});
+
+app.createModel(userSchema, 'User');
 ```
 
 # Docs & Community
