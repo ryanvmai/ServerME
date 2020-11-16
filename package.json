@@ -1,6 +1,6 @@
 {
   "name": "serverme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Server ME is a JavaScript library.",
   "main": "index.js",
   "scripts": {
