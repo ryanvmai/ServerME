@@ -24,6 +24,7 @@ $ npm install serverme
 - Creates an Express server that connects to MongoDB.
 - Creates common routes
 - Creates routes for Get/Post requests
+- Allows users to quickly create mongoose Schemas and designate routes
 
 # Usage
 
