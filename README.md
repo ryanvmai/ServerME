@@ -1,6 +1,18 @@
 # Server ME
 
-Server ME is an open-source JavaScript library that works with Express.js, Mongoose.js, and Node.js. Targeted towards beginners, Server ME helps people unfamiliar with back-end coding quickly set up a web server and API with a database connection.
+[![NPM Version][npm-image]][npm-url]
+[![License][license-image]][license-url]
+![Build][build-image]
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md)
+
+Server ME is an open-source JavaScript library that works with [Express.js](https://expressjs.com), [Mongoose.js](https://mongoosejs.com), and [Node.js](https://nodejs.org/en/). Targeted towards beginners, Server ME helps people unfamiliar with back-end coding quickly set up a web server and API with a database connection.
+
+# Features
+
+- Creates an Express server that connects to MongoDB.
+- Creates common routes
+- Creates routes for Get/Post requests
+- Allows users to quickly create mongoose Schemas and designate routes
 
 # Installation
 
@@ -19,20 +31,17 @@ Installation is done using the
 $ npm install serverme
 ```
 
-# Features
-
-- Creates an Express server that connects to MongoDB.
-- Creates common routes
-- Creates routes for Get/Post requests
-- Allows users to quickly create mongoose Schemas and designate routes
-
-# Using ServerME
+# Using Server ME
 
 ## **Quick start**
 
+Importing with Node.js `require()`
+
 ```
 const serverme = require('serverme');
+```
 
+```
 const app = new serverme;
 app.start(3000); //port number
 app.connectDatabase();
@@ -42,7 +51,6 @@ Desired output:
 
 ```
 Server started at port 3000. Visit site at http://localhost:3000/
-
 Successfully established connection to mongoDB Atlas Cloud Database
 ```
 
@@ -71,13 +79,11 @@ const userSchema = new Schema({
 app.createModel(userSchema, 'User');
 ```
 
-# Docs & Community
-
-More information coming soon.
-
-## Contributions
+# Contributions
 
 Contributions to this software library are highly appreciated and encouraged. To contribute, simply initiate a pull request.
+
+Contributions must adhere to the [Contributor Covenant Code of Conduct](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md).
 
 # Philosophy
 
@@ -89,14 +95,22 @@ Server ME is an open-source JavaScript library built for beginners by beginners.
 
 As an open-source library, Server ME strives to be inclusive. Thus, Server ME has abandoned all controversial and offensive norms in the Computer Science community. For example, rather than refering to our primary branch as "master," Server ME refers to our primary branch as "main." Rather than using terms such as "blacklist" or "whitelist," Server ME uses "allowlist" or "denylist." We hope you will join us in creating inclusive communities within Computer Science. Please feel free to submit a pull request if any code or text in this library seems offensive or non-inclusive.
 
+Server ME adheres to the Contributor Covenant Code of Conduct. Click [here](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md) for more information.
+
 # License
 
-ServerME uses the **MIT** license, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+Server ME uses the **MIT** license, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 _Information sourced from [choosealicense](https://choosealicense.com/licenses/mit/)._
 
-Read the full license to learn more.
+Read the [full license][license-url] to learn more.
 
-# Other
+# Copyright
 
-This README is inspired by Express.js's GitHub Readme file.
+© 2020 Ryan Mai
+
+[npm-image]: https://img.shields.io/badge/npm_package-v0.0.4-blue
+[npm-url]: https://www.npmjs.com/package/serverme
+[license-image]: https://img.shields.io/badge/license-MIT-blue
+[license-url]: https://github.com/ryanvmai/ServerME/blob/main/LICENSE
+[build-image]: https://img.shields.io/badge/build-passing-green
