@@ -5,3 +5,4 @@ node_modules/
 # In process, not ready for commit/publishing
 demo.js
 rConstruct.js
+.eslintrc.json
