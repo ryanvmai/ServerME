@@ -65,7 +65,7 @@ Successfully established connection to mongoDB Atlas Cloud Database
 
 At the current moment, Server ME can create an Express server that connects to MongoDB. To use this library with MongoDB, create an account [here](https://www.mongodb.com/cloud/atlas). After creating your account, create a project and a cluster. Connect your database by allowlisting your IP address and connecting your Atlas Cloud Uniform Resource Indentifier (URI).
 
-Alternatively, use the test URI to connect to Server ME's demo server:
+Alternatively, use the test URI to connect to Server ME's demo database:
 
 ```
 mongodb+srv://guest:AndoverCSC630@testcluster.z1itv.mongodb.net/TestDatabase?retryWrites=true&w=majority
