@@ -108,7 +108,7 @@ Server ME adheres to the Contributor Covenant Code of Conduct. Click [here](http
 
 # License
 
-Server ME uses the **MIT** license, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+Server ME uses the **MIT** license, a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. However, the original copyright and license notice must be included.
 
 _Information sourced from [choosealicense](https://choosealicense.com/licenses/mit/)._
 
