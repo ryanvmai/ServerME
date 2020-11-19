@@ -32,6 +32,12 @@ Installation is done using the
 $ npm install serverme
 ```
 
+Install dependencies:
+
+```bash
+$ npm install
+```
+
 # Using Server ME
 
 ## **Quick start**
@@ -82,9 +88,9 @@ app.createModel(userSchema, 'User');
 
 # Contributions
 
-Contributions to this software library are highly appreciated and encouraged. To contribute, simply initiate a pull request.
+Contributions to this software library are highly appreciated and encouraged. To see current issues, click [here](https://github.com/ryanvmai/ServerME/issues). To contribute, simply initiate a pull request.
 
-Contributions must adhere to the [Contributor Covenant Code of Conduct](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md).
+Please read the [collaborator guide](https://github.com/ryanvmai/ServerME/blob/main/Collaborator-Guide.md) before submitting a pull request. Contributions must adhere to the [Contributor Covenant Code of Conduct](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md).
 
 # Philosophy
 
