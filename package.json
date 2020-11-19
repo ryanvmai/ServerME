@@ -1,18 +1,25 @@
 {
   "name": "serverme",
   "version": "0.0.5",
-  "description": "Server ME is a JavaScript library.",
+  "description": "A JavaScript library that quickly creates a web server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "Ryan Mai",
   "license": "MIT",
+  "repository": "ryanvmai/serverme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.14",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
