@@ -14,6 +14,7 @@ Open issues for Server ME can be found [here](https://github.com/ryanvmai/Server
 
 Use the `main` branch for bug fixes or minor work that is intended for the
 current release stream.
+If you are working on a specific issue or feature, use the designated branch assigned in the issue. If you are creating your own feature that is likely to disrupt the current release, create a new branch.
 
 ## Steps for contributing
 
@@ -21,10 +22,9 @@ current release stream.
    checkout your fork.
 2. Write your code in your local copy. It's good practice to create a branch for
    each new issue you work on, although not compulsory.
-3. To run the test suite, first install the dependencies by running `npm install`
-4. Ensure your code is linted by running `npm run lint` -- fix any issue you
+3. Ensure your code is linted by running `npm run lint` -- fix any issue you
    see listed.
-5. If the tests pass, you can commit your changes to your fork and then create
+4. If you are satisfied, you can commit your changes to your fork and then create
    a pull request from there.
 
 _Guide sourced from Express.js_
