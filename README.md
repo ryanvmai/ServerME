@@ -94,6 +94,8 @@ Please read the [collaborator guide](https://github.com/ryanvmai/ServerME/blob/m
 
 # Philosophy
 
+> "Programming isn't about what you know; it's about what you can figure out.” — Chris Pine
+
 ## Server ME
 
 Server ME is an open-source JavaScript library built for beginners by beginners. It is targeted towards JavaScript developers who have little to no experience in back-end coding. As you use Server ME and learn more about back-end development, we encourage you to contribute to this library to make it better for other beginners learning JavaScript.
