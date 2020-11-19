@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 ![NPM DL](https://img.shields.io/npm/dy/serverme)
-![Build][build-image]
+![Build][failing-image]
 [![License][license-image]][license-url]
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://github.com/ryanvmai/ServerME/blob/main/code_of_conduct.md)
 
@@ -120,4 +120,5 @@ Read the [full license][license-url] to learn more.
 [npm-url]: https://www.npmjs.com/package/serverme
 [license-image]: https://img.shields.io/npm/l/serverme
 [license-url]: https://github.com/ryanvmai/ServerME/blob/main/LICENSE
-[build-image]: https://img.shields.io/badge/build-passing-brightgreen
+[passing-image]: https://img.shields.io/badge/build-passing-brightgreen
+[failing-image]: https://img.shields.io/badge/build-failing-red
