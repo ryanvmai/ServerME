@@ -1,6 +1,6 @@
 {
   "name": "serverme",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "A JavaScript library that quickly creates a web server",
   "main": "index.js",
   "scripts": {
